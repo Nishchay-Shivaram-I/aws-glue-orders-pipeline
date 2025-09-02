@@ -15,7 +15,7 @@ It follows the **Bronze → Silver → Gold** architecture pattern to ingest, cl
 ---
 
 ## 🧱 Pipeline Architecture
-
+```
 Raw CSV (S3: /raw/orders.csv)
 ↓ [bronze_ingest.py]
 Bronze Layer (Parquet: /bronze/orders_bronze/)
@@ -23,7 +23,7 @@ Bronze Layer (Parquet: /bronze/orders_bronze/)
 Silver Layer (Typed: /silver/orders_silver/)
 ↓ [gold_aggregate.py]
 Gold Layer (Aggregated: /gold/daily_sales/)
-
+```
 
 ---
 
@@ -35,7 +35,7 @@ Gold Layer (Aggregated: /gold/daily_sales/)
 ├── bronze_ingest.py
 ├── silver_clean.py
 └── gold_aggregate.py
-
+```
 
 ---
 
@@ -80,5 +80,6 @@ and writes results into the Gold layer.
 
 ## 📜 License
 MIT – free to use and modify.
+
 
 
