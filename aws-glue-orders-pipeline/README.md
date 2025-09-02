@@ -60,7 +60,7 @@ Aggregates daily sales totals and writes results to the Gold layer.
 
 ## 👤 Author
 
-**Your Name**  
+**Nishchay S**  
 [GitHub Profile](https://github.com/Nishchay-Shivaram-I)
 
 ---
@@ -68,3 +68,4 @@ Aggregates daily sales totals and writes results to the Gold layer.
 ## 📜 License
 
 MIT – do whatever you want 😎
+
