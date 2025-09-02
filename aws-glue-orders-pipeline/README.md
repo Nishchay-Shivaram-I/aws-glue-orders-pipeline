@@ -29,7 +29,7 @@ Gold Layer (Aggregated: /gold/daily_sales/)
 
 ## 📂 Folder Structure
 
-aws-glue-orders-pipeline/
+```aws-glue-orders-pipeline/
 ├── README.md
 └── scripts/
 ├── bronze_ingest.py
@@ -80,4 +80,5 @@ and writes results into the Gold layer.
 
 ## 📜 License
 MIT – free to use and modify.
+
 
